@@ -1,0 +1,28 @@
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .image {
+        position: static;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .app-container {
+        margin: 0 10%;
+    }
+}
